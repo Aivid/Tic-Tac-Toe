@@ -166,7 +166,7 @@ public class Game {
                 if (grid[0][i] == symbol[j] && grid[1][i] == symbol[j] && grid[2][i] == symbol[j])
                     return message[j];
 
-                // Check for columns
+                // Check for columns as grid is 90 degrees to the grid displayed in game
                 if (grid[i][0] == symbol[j] && grid[i][1] == symbol[j] && grid[i][2] == symbol[j])
                     return message[j];
             }
