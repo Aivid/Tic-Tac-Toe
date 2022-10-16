@@ -172,6 +172,7 @@ public class Game {
             }
 
         }
+        //Code verify available fields to be populated by player move
         // Check for tie
         int total = 0;
         for(int i=0;i<grid.length;i++) {
